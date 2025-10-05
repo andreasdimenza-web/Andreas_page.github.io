@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="quiz-title">
+        General Skibidi Toilet Rizz Italian Brainrot La vaca Saturno Saturnita, Ou din din doun ma Din Din doun, Svina bombardino, Garama and Madundung, La Grande Combinnation, Tun tun tun sahur, ta ta ta sahur Tralalelo Tralala, Bombini Gusini
+    </div>
+  
+    <div class="quiz-title">
+        Brainrot quiz
+    </div>
+
+    <div class="quiz-container">
+        <!-- progress bar -->
+        <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="progress-bar-fill"></div>
+        </div>
+
+        <!-- question label-->
+        <div class="question" id="question">
+            Questions will be displayed here. Click START to begin!
+        </div>
+
+        <!-- drop down menu -->
+        <select class="drop-down" id="drop-down">
+            <option value="1">Easy 🧠</option>
+            <option value="2">Medium 🧠🧠</option>
+            <option value="3">Hard 🧠🧠🧠</option>
+        </select>
+        
+        <!-- option buttons -->
+       <div class="option-container" id="option-container"></div>
+
+        <!-- score/feedback label -->
+        <div class="score-label" id="score-label">
+            You scored 0 points
+        </div>
+    
+        <div class="feedback-label" id="feedback-label">
+            N.A
+        </div>
+       
+       
+        <!-- start button -->
+           <button class="start-btn" id="start-btn"> START </button>
+    </div>
+
+    <div class="timer">
+        <span id="timer-label"> 15 </span>
+    </div>
+  
+    <label for="songs">Choose your song:</label>
+    <select class="bgm-dropdown" id="bgm-dropdown">
+        <option value=""> -- Select a sound track -- </option>
+        <option value="party.mp3"> Party </option>
+        <option value="studio.mp3"> Studio </option>
+        <option value="deepsea.mp3"> Deepsea </option>
+    </select>
+    
+    <button class="music-btn" id="music-btn">🔇Music Off</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
